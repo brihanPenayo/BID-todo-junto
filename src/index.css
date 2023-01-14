@@ -11,3 +11,9 @@
   padding: 1rem;
   border-radius: 1vmin;
 }
+
+button{
+width: 80%;
+height: 2rem;
+margin: 0 auto;
+}

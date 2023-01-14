@@ -1,14 +1,27 @@
 import PersonCard from './components/PersonCard';
 import './index.css';
+import React from 'react';
 
 
 function App() {
+  // const [age, setAge] = React.useState("25");
+  // const [age, setAge] = React.useState(10);
+  // const incrementAge = () => {
+  //   setAge(age + 1);
+  // }
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //       age: 0
+  //   }
+  // }
+
+  // incrementAge = () => {
+  //   this.setState({age: this.state.age + 1});
+  // }
   return (
     <>
-      <PersonCard firstName="Laura" lastName="Cardozo" age="26" hairColor="Rojo"/>
-      <PersonCard firstName="Camila" lastName="Roa" age="25" hairColor="Castanho"/>
-      <PersonCard firstName="Brihan" lastName="Penayo" age="26" hairColor="Negro"/>
-      <PersonCard firstName="Coding" lastName="Dojo" age="25" hairColor="Blanco"/>
+      <PersonCard name="Gilberto" edad={26}/>
     </>
   );
 }
