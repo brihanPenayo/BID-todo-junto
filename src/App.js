@@ -4,24 +4,12 @@ import React from 'react';
 
 
 function App() {
-  // const [age, setAge] = React.useState("25");
-  // const [age, setAge] = React.useState(10);
-  // const incrementAge = () => {
-  //   setAge(age + 1);
-  // }
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //       age: 0
-  //   }
-  // }
-
-  // incrementAge = () => {
-  //   this.setState({age: this.state.age + 1});
-  // }
   return (
     <>
-      <PersonCard name="Gilberto" edad={26}/>
+      <PersonCard name="Gilberto" apellido="Gonzalez" edad={34} colorPelo="Negro" />
+      <PersonCard name="Rocio" apellido="Ramirez" edad={22} colorPelo="Rojo" />
+      <PersonCard name="Camila" apellido="Roa" edad={25} colorPelo="Negro" />
+      <PersonCard name="Brihan" apellido="Penayo" edad={26} colorPelo="Negro" />
     </>
   );
 }
